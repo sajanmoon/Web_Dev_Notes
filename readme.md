@@ -127,7 +127,28 @@ Forms are used to collect user input.
 - Used to embedded data from site or webpage to your own web page
 
 ```html
-<iframe src="https://www.bing.com/"></iframe>
+<iframe src="https://www.bing.com/" width="50%" height="300"></iframe>
 ```
 
----
+- Youtube directly provide iframe
+
+### Some of usecases of iframe
+
+- Creating a seprate section or a page
+- Displaying Ads
+- embedding social media
+
+- some website disable iframe for security reasons
+
+## Image tage
+
+```html
+<img src="www.image.com" alt="image" />
+<!-- here we are taking directly a image from a url -->
+<img src="./images" alt="image" />
+<!-- here we are taking image from our local machine -->
+```
+
+```
+
+```
