@@ -69,10 +69,3 @@ visible content of a document ## Tags in HTML -
             <option>Red</option>
             <option>Blue</option>
           </select>
-          -</u
-        ></i
-      ></b
-    >
-  </p>
-</h1>
-```
