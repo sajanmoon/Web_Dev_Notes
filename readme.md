@@ -26,12 +26,12 @@
 
 ## Tags in HTML
 
-- <h1> used for heading ,varies from h1 to h6
-- <p>
+<!-- - <h1> used for heading ,varies from h1 to h6 -->
+<!-- - <p> -->
 
 ## Formating Tags
 
-- W3school link for refrence: https://www.w3schools.com/html/html_formatting.asp
+<!-- - W3school link for refrence: https://www.w3schools.com/html/html_formatting.asp
 - <b> bold tag
 - <i> italic tag
 - <u> underline tag
@@ -42,9 +42,10 @@
 - <sub> subscript tag to write a text below like chemical formula H2O </sub>
 - --eg H<sub>2</sub>O
 - <small> to write a smaller text </small>
-- <mark> to highlight the text</mark>
+- <mark> to highlight the text</mark> -->
 
 <!-- - Strong tag <strong> -->
+
 - its appear similar to bold but also tells browser that this text have importance in document
 <!-- - Emphasis tag <em> -->
 - its visual as italic tag but it gives a deep meaning and importance for a browser
@@ -53,7 +54,7 @@
 
 ## input tags
 
-- these are self closing tags
+<!-- - these are self closing tags
 - <input type="text"/> will take input as text
 - <input type="number"/> only numbers
 - <input type="password"/> will be hide by \*\*\*\*
@@ -76,9 +77,10 @@
 - <input type="number" max="10" readonly/> can only be read can not change
 - Hidden
 - <input type="number" max="10" hidden/> it hides the input feild
-- Select (dropdown)
-<select>
+- Select (dropdown) -->
+<!-- <select>
 <option>Red</option>
 <option>Blue</option>
-</select>
+</select> -->
+
 -
