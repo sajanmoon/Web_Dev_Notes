@@ -32,6 +32,7 @@
 
 ## Formating Tags
 
+````html
 - W3school link for refrence: https://www.w3schools.com/html/html_formatting.asp
 - <b> bold tag
 - <i> italic tag
