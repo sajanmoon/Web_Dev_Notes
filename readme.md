@@ -35,18 +35,18 @@
 - <b> bold tag
 - <i> italic tag
 - <u> underline tag
-- <s> strike tag - a line over a text
-- <ins> inserted tag to add a inserted tag
-- <sup> superscript tag to write a 2 is to the power of 2
+- <s> strike tag - a line over a text </s>
+- <ins> inserted tag to add a inserted tag </ins>
+- <sup> superscript tag to write a 2 is to the power of 2 </sup>
 - -- eg 2<sup>2</sup>
-- <sub> subscript tag to write a text below like chemical formula H2O
+- <sub> subscript tag to write a text below like chemical formula H2O </sub>
 - --eg H<sub>2</sub>O
-- <small> to write a smaller text
-- <mark> to highlight the text
+- <small> to write a smaller text </small>
+- <mark> to highlight the text</mark>
 
-- Strong tag <strong>
+<!-- - Strong tag <strong> -->
 - its appear similar to bold but also tells browser that this text have importance in document
-- Emphasis tag <em>
+<!-- - Emphasis tag <em> -->
 - its visual as italic tag but it gives a deep meaning and importance for a browser
 
 ## FORM in html
@@ -56,7 +56,7 @@
 - these are self closing tags
 - <input type="text"/> will take input as text
 - <input type="number"/> only numbers
-- <input type="password"/> will be hide by ****
+- <input type="password"/> will be hide by \*\*\*\*
 - <input type="date"/> we can select date
 - <input type="time"/> we can select time
 - <input type="radio"/> tto create a radio button
@@ -77,9 +77,8 @@
 - Hidden
 - <input type="number" max="10" hidden/> it hides the input feild
 - Select (dropdown)
- <select>
- <option>Red</option>
- <option>Blue</option>
- </select>
-- 
-
+<select>
+<option>Red</option>
+<option>Blue</option>
+</select>
+-
