@@ -169,6 +169,8 @@ Forms are used to collect user input.
 
 ### ordered list
 
+### unordered list
+
 ```html
 <ol>
   <li>Red</li>
@@ -183,6 +185,87 @@ Forms are used to collect user input.
   <li>Green</li>
 </ul>
 <!-- in unordered list we will get a bullet to our list  -->
+```
+
+## Table tag
+
+```html
+<table border="1" cellspacing="0">
+  <!-- border : to add the border  -->
+  <!-- cellspacing : to add or remove space between border  -->
+
+  <!-- table head  -->
+  <thead>
+    <!-- table row -->
+    <tr>
+      <!-- table heading  -->
+      <th>Contory</th>
+      <th>litracy Rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <!-- table data  -->
+      <td align="center">India</td>
+      <td>80%</td>
+    </tr>
+    <tr>
+      <td>India</td>
+      <td>80%</td>
+    </tr>
+    <tr>
+      <td>India</td>
+      <td>80%</td>
+    </tr>
+  </tbody>
+  <!-- table footer  -->
+  <tfoot>
+    <tr>
+      <td>world</td>
+      <td>70%</td>
+    </tr>
+  </tfoot>
+</table>
+```
+
+## Semantic tags
+
+- Tags which have some meaning helps browser and SEO to identify components
+
+```html
+<header></header>
+<footer></footer>
+<nav></nav>
+<article></article>
+<form></form>
+```
+
+## Non-Semantic tags
+
+- Tags which have nomeaning only use to structure ,layout ,style
+
+```html
+<div></div>
+<span></span>
+```
+
+## Meta Tags
+
+- Used for browser search engine
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="this is a description" />
+    <meta name="authorship" content="" />
+  </head>
+  <body></body>
+</html>
 ```
 
 ```
