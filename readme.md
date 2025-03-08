@@ -140,13 +140,49 @@ Forms are used to collect user input.
 
 - some website disable iframe for security reasons
 
-## Image tage
+### Image tage
 
 ```html
 <img src="www.image.com" alt="image" />
 <!-- here we are taking directly a image from a url -->
 <img src="./images" alt="image" />
 <!-- here we are taking image from our local machine -->
+```
+
+### Video tag
+
+```html
+<video controls width="400" height="400" loop muted autoplay>
+  <source src="www.vide.com" />
+</video>
+```
+
+### Audio tag
+
+```html
+<audio controls width="400" height="400" loop muted autoplay>
+  <source src="www.audio.com" />
+</audio>
+```
+
+## List tag
+
+### ordered list
+
+```html
+<ol>
+  <li>Red</li>
+  <li>Yellow</li>
+  <li>Green</li>
+</ol>
+<!-- in ordered list we will get a number to our list  -->
+
+<ul>
+  <li>Red</li>
+  <li>Yellow</li>
+  <li>Green</li>
+</ul>
+<!-- in unordered list we will get a bullet to our list  -->
 ```
 
 ```
