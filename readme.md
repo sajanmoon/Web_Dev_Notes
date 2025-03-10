@@ -274,7 +274,12 @@ Forms are used to collect user input.
 
 ### Tag selectors
 
-- Directly adding style to element eg h1, p ,span etc h1 { background-color:red}
+- Directly adding style to element eg h1, p ,span etc
+
+```html
+<h1>hello</h1>
+h1 { background-color:red}
+```
 
 ### Class selectors
 
