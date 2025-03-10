@@ -268,6 +268,22 @@ Forms are used to collect user input.
 </html>
 ```
 
+# css
+
+## CSS Selectors
+
+### Tag selectors
+
+- Directly adding style to element eg h1, p ,span etc h1 { background-color:red}
+
+### Class selectors
+
+- Adding style to class eg class = name | .name{background-color : blue}
+
+### ID selector
+
+- For a unique element | id=name |#name{background-color:blue}
+
 ```
 
 ```
