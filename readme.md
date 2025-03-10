@@ -283,11 +283,20 @@ h1 { background-color:red}
 
 ### Class selectors
 
-- Adding style to class eg class = name | .name{background-color : blue}
+- Adding style to class eg
+
+```html
+<h1 class="name">hello</h1>
+.name{background-color : blue}
+```
 
 ### ID selector
 
 - For a unique element | id=name |#name{background-color:blue}
+
+```html
+
+```
 
 ```
 
