@@ -504,17 +504,17 @@ let basket = ["mango", "banana", "papaya", "watermelon"];
 
 The following JavaScript code iterates over an array of fruits and logs each item to the console:
 
-````javascript
+```javascript
 let basket = ["mango", "banana", "papaya", "watermelon"];
 
 for (let items of basket) {
   console.log(items);
 }
-
+```
 
 ```html
 
-````
+```
 
 ```
 
