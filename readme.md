@@ -495,10 +495,15 @@ let i = 1; while (i <= 10) { console.log(i); i++; }
 
 - for loop
 
-```html
-let basket = ["mango", "banana", "papaya", "watermelon"];<br />
-for (let i = 0; i <= basket.length; i++) { console.log(basket[i]); }
-```
+let basket = ["mango", "banana", "papaya", "watermelon"];
+
+- for (let i = 0; i <=basket.length; i++)
+- { console.log(basket[i]); }
+
+- for....of loop
+
+let basket = ["mango", "banana", "papaya", "watermelon"];
+for (let items of basket) { console.log(items); }
 
 ```html
 
