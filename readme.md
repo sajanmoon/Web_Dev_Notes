@@ -495,10 +495,13 @@ let i = 1; while (i <= 10) { console.log(i); i++; }
 
 - for loop
 
+```javascript
 let basket = ["mango", "banana", "papaya", "watermelon"];
 
-- for (let i = 0; i <=basket.length; i++)
-- { console.log(basket[i]); }
+for (let i = 0; i <= basket.length; i++) {
+  console.log(basket[i]);
+}
+```
 
 ## JavaScript Loop Example
 
@@ -510,6 +513,10 @@ let basket = ["mango", "banana", "papaya", "watermelon"];
 for (let items of basket) {
   console.log(items);
 }
+```
+
+```javascript
+
 ```
 
 ```html
