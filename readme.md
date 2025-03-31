@@ -468,38 +468,35 @@ img { width: 200px; float: right; } .clear { clear: right; }
 - if
 - if else
 
-# Loops
+# Array Loop
 
-```html
-- for(initiliation;condition;increment/decrement)
-<br />
-{ code to be executed } - for (let i = 0; i < 5; i++) { console.log(i); }
+### for loop
+
+```javascript
+for(initiliation;condition;increment/decrement){
+   code to be executed
+    }
+     for (let i = 0; i < 5; i++)
+      {
+         console.log(i);
+         }
 ```
-
-### While Loop
-
-```html
-let i = 1; while (i <= 10) { console.log(i); i++; }
-```
-
-# Arrays
-
-### Array Methid
-
-- Push - Add a element to the end of a array
-- Pop - Remove a element to the end of a array
-- unshift - Add an element to the end of the array
-- shift - Remove an elemnt to the the end of the array
-
-### Array Loop
-
-- for loop
 
 ```javascript
 let basket = ["mango", "banana", "papaya", "watermelon"];
 
 for (let i = 0; i <= basket.length; i++) {
   console.log(basket[i]);
+}
+```
+
+### While Loop
+
+```javascript
+let i = 1;
+while (i <= 10) {
+  console.log(i);
+  i++;
 }
 ```
 
@@ -513,6 +510,164 @@ let basket = ["mango", "banana", "papaya", "watermelon"];
 for (let items of basket) {
   console.log(items);
 }
+```
+
+# Arrays
+
+### Array Methid
+
+- Push - Add a element to the end of a array
+- Pop - Remove a element to the end of a array
+- unshift - Add an element to the end of the array
+- shift - Remove an elemnt to the the end of the array
+
+# Objects
+
+- Object in javascript are stored in key value pair
+
+```javascript
+let obj = {
+  name: "sajan",
+  value: 1,
+  marks: ["1", "2"],
+  branch: "Information technology",
+};
+console.log(obj);
+```
+
+### For...in loop
+
+```javascript
+let obj = {
+  name: "sajan",
+  value: 1,
+  marks: ["1", "2"],
+  branch: "Information technology",
+};
+for (let items in obj) {
+  console.log(obj[items]);
+}
+```
+
+# Functions
+
+- Function Declaration
+
+```javascript
+function func(){
+  code here
+}
+func()
+```
+
+- Function Expression
+
+```javascript
+const func = function (){
+  code here
+}
+func()
+```
+
+- Arrow Function
+
+```javascript
+const func = ()=>{
+  code here
+}
+
+```
+
+# DOM - Accesing Element
+
+## DOM Manipulation
+
+### Accessing Elements
+
+- **`getElementById("id")`**
+
+  ```javascript
+  const heading = document.getElementById("main-heading");
+  ```
+
+- **`getElementsByClassName("className")`**
+
+  ```javascript
+  const items = document.getElementsByClassName("list-item");
+  ```
+
+- **`getElementsByTagName("tagName")`**
+
+  ```javascript
+  const paragraphs = document.getElementsByTagName("p");
+  ```
+
+- **`querySelector("selector")`**
+
+  ```javascript
+  const firstItem = document.querySelector(".list-item");
+  ```
+
+- **`querySelectorAll("selector")`**
+  ```javascript
+  const allItems = document.querySelectorAll(".list-item");
+  ```
+
+### Modifying Elements
+
+- **Changing Text Content**
+
+  ```javascript
+  heading.innerHTML = "Hello, JavaScript!";
+  ```
+
+- **Creating Elements**
+  ```javascript
+  const newHeading = document.createElement("h1");
+  newHeading.innerHTML = "I am created by JavaScript";
+  document.body.appendChild(newHeading);
+  ```
+
+### Working with Classes
+
+- **Adding a Class**
+
+  ```javascript
+  heading.classList.add("title");
+  ```
+
+- **Removing a Class**
+
+  ```javascript
+  heading.classList.remove("title");
+  ```
+
+- **Toggling a Class**
+  ```javascript
+  heading.classList.toggle("active");
+  ```
+
+## Event Listners
+
+- Add event
+
+```javascript
+const btn = document.querySelector(".button");
+
+btn.addEventListener("click", () => {
+  btn.innerHTML = "i m clicked";
+});
+```
+
+## Adding styles in javascript
+
+- Syntax - elementname.style.property = 'CSS Style'
+- Syntax - elementname.style.cssText = 'CSS Style'
+
+```javascript
+const heading = document.querySelector("h1");
+
+heading.style.color = "red";
 ```
 
 ```javascript

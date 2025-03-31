@@ -1,5 +1,3 @@
-let basket = ["mango", "banana", "papaya", "watermelon"];
+const heading = document.querySelector("h1");
 
-for (let items of basket) {
-  console.log(items);
-}
+heading.style.color = "red";
